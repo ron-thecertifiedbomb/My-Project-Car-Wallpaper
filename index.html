@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onresize="myFunction()">
+
+    <section id="wrapper">
+
+        <nav class="nav-bar">
+
+            <div class="logo-side">
+                <h1 class="my-text">Lizard Interactive</h1>
+            </div>
+
+            <div class="button-side">
+
+                <button class="tablink" onclick="openPage('Home', this, 'rgb(222, 215, 215)')" id="defaultOpen">Subaru</button>
+                <button class="tablink" onclick="openPage('News', this, 'rgb(222, 215, 215)')">Mitsubishi</button>
+                <button class="tablink" onclick="openPage('Contact', this, 'rgb(222, 215, 215)')">Lamborghini</button>
+                <button class="tablink" onclick="openPage('About', this, 'rgb(222, 215, 215)')">Honda</button>
+  
+            </div>
+
+            <div id="hamburger-container">
+
+                <div id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+        
+
+        
+            <div id="hamburger-menu">
+
+                <button class="tablink2" onclick="openPage('Home', this)">Subaru</button>
+                <button class="tablink2" onclick="openPage('News', this)">Mitsubishi</button>
+                <button class="tablink2" onclick="openPage('Contact', this)">Lamborghini</button>
+                <button class="tablink2" onclick="openPage('About', this)">Honda</button>
+                
+            </div>
+
+        </nav>
+
+
+
+
+     
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="Home" class="tabcontent">
+
+            <div id="gallery-one">
+
+                <figure>
+
+                    <img id="mainImg" src="images/S1.jpg">
+
+                </figure>
+
+                <ul>
+                    <li class="thumb"><img id="thumb1" src="images/S1.jpg"></li>
+                    <li class="thumb"><img id="thumb2" src="images/S2.jpg"></li>
+                    <li class="thumb"><img id="thumb3" src="images/S3.jpg"></li>
+                    <li class="thumb"><img id="thumb4" src="images/Evo4.jpg"></li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div id="News" class="tabcontent">
+
+            <div id="gallery-two">
+
+                <figure>
+
+                    <img id="mainImgTwo" src="images/S2.jpg">
+
+                </figure>
+
+                <ul>
+                    <li class="thumb"><img id="thumb5" src="images/S2.jpg"></li>
+                    <li class="thumb"><img id="thumb6" src="images/S1.jpg"></li>
+                    <li class="thumb"><img id="thumb7" src="images/S3.jpg"></li>
+                    <li class="thumb"><img id="thumb8" src="images/Evo4.jpg"></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="Contact" class="tabcontent">
+            <div id="gallery-three">
+
+                <figure>
+
+                    <img id="mainImgTwo" src="images/S2.jpg">
+
+                </figure>
+
+                <ul>
+                    <li class="thumb"><img id="thumb5" src="images/S2.jpg"></li>
+                    <li class="thumb"><img id="thumb6" src="images/S1.jpg"></li>
+                    <li class="thumb"><img id="thumb7" src="images/S3.jpg"></li>
+                    <li class="thumb"><img id="thumb8" src="images/Evo4.jpg"></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="About" class="tabcontent">
+            <div id="gallery-four">
+
+                <figure>
+
+                    <img id="mainImgTwo" src="images/S2.jpg">
+
+                </figure>
+
+                <ul>
+                    <li class="thumb"><img id="thumb5" src="images/S2.jpg"></li>
+                    <li class="thumb"><img id="thumb6" src="images/S1.jpg"></li>
+                    <li class="thumb"><img id="thumb7" src="images/S3.jpg"></li>
+                    <li class="thumb"><img id="thumb8" src="images/Evo4.jpg"></li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Page -Two -->
+
+        <section class="top-box">
+
+
+            <h1 class="heading-text">Gallery</h1>
+
+            <div class="image-holder">
+
+                <img id="thumb5" src="images/S2.jpg">
+
+            </div>
+
+            <div id="side-bar" class="side-bar-design">
+
+          
+
+                <button class="accordion">Section 1</button>
+             
+                <div class="panel">
+
+                 <ul>
+                     <li>Engine Specification</li>
+                     <li>History</li>
+                     <li>Country of Origin</li>
+                     <li>Body Measurement</li>
+                 </ul>
+                </div>
+                
+                <button class="accordion">Section 2</button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                
+                <button class="accordion">Section 3</button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+
+
+
+
+
+           </div> 
+
+                    
+
+
+
+      
+
+
+        </section>
+
+
+        <!-- Page -Two -->
+
+
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
